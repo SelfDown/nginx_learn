@@ -13,7 +13,7 @@ nginx 学习
         }
         
         
- 1 静态文件缓存设置  add_header ‘Access-Control-Max-Age’ 0; 文件从浏览器直接 获取，不经过服务器
+ 1 静态文件缓存设置  add_header ‘Access-Control-Max-Age’ 0; 文件从浏览器直接 获取，不经过服务器。from disk cache
  
  
   gzip_min_length 1k;  
